@@ -1,0 +1,316 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.18f1 (3129e69bc0c7) revision 3221990'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.22621) 64bit Professional' Language: 'en' Physical Memory: 7974 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.18f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker1
+-projectPath
+C:/Users/Jerms/OneDrive/Desktop/King's Gambit/Old-CanvasChess-master
+-logFile
+Logs/AssetImportWorker1.log
+-srvPort
+50765
+Successfully changed project path to: C:/Users/Jerms/OneDrive/Desktop/King's Gambit/Old-CanvasChess-master
+C:/Users/Jerms/OneDrive/Desktop/King's Gambit/Old-CanvasChess-master
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [27568] Host "[IP] 10.0.0.16 [Port] 0 [Flags] 2 [Guid] 414012061 [EditorId] 414012061 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9OH2CS8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [27568] Host "[IP] 10.0.0.16 [Port] 0 [Flags] 2 [Guid] 414012061 [EditorId] 414012061 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-9OH2CS8) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+Refreshing native plugins compatible for Editor in 58.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.18f1 (3129e69bc0c7)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Jerms/OneDrive/Desktop/King's Gambit/Old-CanvasChess-master/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics 630 (ID=0x3e9b)
+    Vendor:   Intel
+    VRAM:     3987 MB
+    Driver:   30.0.101.1338
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56980
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.18f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004820 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 57.28 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.650 seconds
+Domain Reload Profiling:
+	ReloadAssembly (650ms)
+		BeginReloadAssembly (87ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (85ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (105ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (264ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (149ms)
+				ProcessInitializeOnLoadMethodAttributes (48ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.006002 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.149 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1150ms)
+		BeginReloadAssembly (127ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (24ms)
+		EndReloadAssembly (903ms)
+			LoadAssemblies (136ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (236ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (55ms)
+			SetupLoadedEditorAssemblies (434ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (72ms)
+				ProcessInitializeOnLoadAttributes (221ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 1.57 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2369 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 60 unused Assets / (57.1 KB). Loaded Objects now: 2806.
+Memory consumption went from 92.0 MB to 91.9 MB.
+Total: 15.618300 ms (FindLiveObjects: 0.390100 ms CreateObjectMapping: 0.243500 ms MarkObjects: 14.751100 ms  DeleteObjects: 0.231500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 745878.191648 seconds.
+  path: Assets/Win Scene-Black.unity
+  artifactKey: Guid(d331661b48a69384f88861bf8c17bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Win Scene-Black.unity using Guid(d331661b48a69384f88861bf8c17bb8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a782d90efdead591e3b2e680e3a37b1c') in 0.035311 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1033.092525 seconds.
+  path: Assets/Meshes/door.fbx
+  artifactKey: Guid(0943a96fc6509f54d85367dde3171269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/door.fbx using Guid(0943a96fc6509f54d85367dde3171269) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '346ad5ddf5e4382de64d29bab3d10fe0') in 0.553405 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/Meshes/siegeBallista.fbx
+  artifactKey: Guid(15590369d6c0b4145aa2e88982ebe47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/siegeBallista.fbx using Guid(15590369d6c0b4145aa2e88982ebe47f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a948b38d3dedabe9b74a977213a9f857') in 0.220747 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Meshes/towerSquareMidWindows.fbx
+  artifactKey: Guid(8b983394e695f1f4aaed6fefc00ad7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareMidWindows.fbx using Guid(8b983394e695f1f4aaed6fefc00ad7c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20065fe45be7f200af9a3160f63d1ab') in 0.080486 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Meshes/wallCornerHalf.fbx
+  artifactKey: Guid(f19c82e321237da4c8082e78cd6b7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wallCornerHalf.fbx using Guid(f19c82e321237da4c8082e78cd6b7ebc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e9ed590530eac3647a435beb24134f8') in 0.062026 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000111 seconds.
+  path: Assets/Meshes/shieldBlue.fbx
+  artifactKey: Guid(f98840ef68ee6454a9cef50d9578bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/shieldBlue.fbx using Guid(f98840ef68ee6454a9cef50d9578bb0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdf47b5a9196638d389c3ddd47c2f5ee') in 0.059031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Meshes/towerSquareMidColor.fbx
+  artifactKey: Guid(f960915f50d1618468d70a06062e6d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareMidColor.fbx using Guid(f960915f50d1618468d70a06062e6d43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e776fcff49d71888f1ad2571a8f0fcc') in 0.048682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Meshes/towerSquareMid.fbx
+  artifactKey: Guid(6df3ba0f103b3b544a2408d78f8585d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareMid.fbx using Guid(6df3ba0f103b3b544a2408d78f8585d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0991117fa93e8192ebcade878b921496') in 0.047986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshes/towerSquareTopRoof.fbx
+  artifactKey: Guid(89a683424cb27b5459f1b8c8d82ca83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareTopRoof.fbx using Guid(89a683424cb27b5459f1b8c8d82ca83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c29c7f0b310f2eef07293bbfca524ea') in 0.063613 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Meshes/stairsStoneSlant.fbx
+  artifactKey: Guid(fff909f804d178245adbd0e852026520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/stairsStoneSlant.fbx using Guid(fff909f804d178245adbd0e852026520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dff85d3c6219dc99b13e90e01b61d16e') in 0.045878 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshes/towerSquareMidOpen.fbx
+  artifactKey: Guid(7d56c569e60615c4d9c340376bb1a637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareMidOpen.fbx using Guid(7d56c569e60615c4d9c340376bb1a637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85c4fb437e108534947281a4c6e9db24') in 0.278922 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/Meshes/towerBase.fbx
+  artifactKey: Guid(13255f00c4d2ff64fab69030be19312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerBase.fbx using Guid(13255f00c4d2ff64fab69030be19312c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a88314499b4099386ddcfb0312e276') in 0.055797 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Meshes/metalGate.fbx
+  artifactKey: Guid(f297242834536c64c8f1021fc614b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/metalGate.fbx using Guid(f297242834536c64c8f1021fc614b36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '341724f2c8fb5bf8b9fe309a0758acc4') in 0.058041 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Meshes/towerSquareBaseBorder.fbx
+  artifactKey: Guid(4301b58ac5309ec4880a475c2d96b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareBaseBorder.fbx using Guid(4301b58ac5309ec4880a475c2d96b79a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24498e59eb7b9d618ccf4ed4b49cb0fd') in 0.058130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Meshes/towerTop.fbx
+  artifactKey: Guid(b01d45f3865b1824bbc856fed05f20b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerTop.fbx using Guid(b01d45f3865b1824bbc856fed05f20b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83216c2d29985828b0f412de204a42bf') in 0.068079 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Meshes/stairsStone.fbx
+  artifactKey: Guid(8929c2acd91c52d488e8ffc1e6c4b395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/stairsStone.fbx using Guid(8929c2acd91c52d488e8ffc1e6c4b395) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5dd264a67da16dadd5c24cfdb0b4d8e') in 0.065834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/Meshes/towerSquare.fbx
+  artifactKey: Guid(8e0ce39b05979284ea1879fc67b71a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquare.fbx using Guid(8e0ce39b05979284ea1879fc67b71a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f81e7bcc0de4441d04eef0d8cf51b8d') in 0.070720 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Meshes/siegeTower.fbx
+  artifactKey: Guid(925abf4233c9d1b45ba1d30dbacc0a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/siegeTower.fbx using Guid(925abf4233c9d1b45ba1d30dbacc0a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c329ba18ea072187d8cd9b1d9400e36c') in 0.260957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Meshes/flagWhite.fbx
+  artifactKey: Guid(2a1d184a2fb5a96489ccba8d9af231b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/flagWhite.fbx using Guid(2a1d184a2fb5a96489ccba8d9af231b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4921a234d93377c90011bb9fab8a6aa2') in 0.072654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Meshes/sword.fbx
+  artifactKey: Guid(098a2f857383e0149b80435e42f8fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/sword.fbx using Guid(098a2f857383e0149b80435e42f8fa48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004174e08a5b4273e3b3cc89038c267e') in 0.044580 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Meshes/towerSquareBase.fbx
+  artifactKey: Guid(175dc5b20e73dc14fb5d597fa997196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareBase.fbx using Guid(175dc5b20e73dc14fb5d597fa997196b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86aab339338bdb5bcb75f97abdd9db45') in 0.052413 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Meshes/towerSquareTop.fbx
+  artifactKey: Guid(5e557a828a3bbcf46bd62fc386ab2a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareTop.fbx using Guid(5e557a828a3bbcf46bd62fc386ab2a3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7815fae6c4b10e04582ca467cf5fbaf') in 0.063244 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Meshes/wall.fbx
+  artifactKey: Guid(3ac720105399d0549bd1ec6bc50c0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/wall.fbx using Guid(3ac720105399d0549bd1ec6bc50c0123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c25b04d8aa1af6f2fd87251014644c92') in 0.054850 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000066 seconds.
+  path: Assets/Meshes/flagBlue.fbx
+  artifactKey: Guid(4a24150bda2bdf841ba93226f6713260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/flagBlue.fbx using Guid(4a24150bda2bdf841ba93226f6713260) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b7d66947026e34def27ec535996b74') in 0.096301 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Meshes/towerSquareTopRoofHigh.fbx
+  artifactKey: Guid(3659a1ddae468df41ae847b180a22c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Meshes/towerSquareTopRoofHigh.fbx using Guid(3659a1ddae468df41ae847b180a22c60) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f97da1c72f8f61a305997a4ecda2041') in 0.056379 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
